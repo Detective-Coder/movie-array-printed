@@ -20,6 +20,6 @@ export function movieList() {
 
   console.log(movieListHTMLString);
 
-  movieContainer.innerHTML = `<h2>Movies</h2> ${movieListHTMLString}`;
+  movieContainer.innerHTML = `<h2>Movies</h2><div class="movie-container">${movieListHTMLString}</div>`;
 
 }

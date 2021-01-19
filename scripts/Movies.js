@@ -7,10 +7,10 @@ export function Movies(movieObject) {
       alt="Movie"
     />
     <div class="movie-card__text">
-      <p>${movieObject.id}</p>
+      <p>Movie ID: ${movieObject.id}</p>
       <p>${movieObject.title}</p>
-      <p>${movieObject.director}</p>
-      <p>${movieObject.rank}</p>
+      <p>Directed by: ${movieObject.director}</p>
+      <p>Rank: ${movieObject.rank}</p>
     </div>
   </section>`
 }
